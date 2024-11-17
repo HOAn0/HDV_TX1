@@ -1,0 +1,71 @@
+﻿@model Vali_main_.Models.APIDashboardViewModel
+
+<div class="container">
+    <h1>Dashboard</h1>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng số khách hàng</h5>
+                    <p class="card-text">@Model.TotalCustomers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng số đơn hàng</h5>
+                    <p class="card-text">@Model.TotalOrders</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng doanh thu</h5>
+                    <p class="card-text">@Model.TotalRevenue?.ToString("C")</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng số sản phẩm</h5>
+                    <p class="card-text">@Model.TotalProducts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biểu đồ có thể thêm vào ở đây -->
+    <div id="chartContainer">
+        <!-- Biểu đồ, có thể dùng thư viện như Chart.js, Highcharts, etc. -->
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+</div>
+<!-- Thêm thư viện Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line', // Loại biểu đồ (line, bar, etc.)
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Doanh thu theo tháng',
+                data: [12, 19, 3, 5, 2, 3, 7],  // Dữ liệu mẫu
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+</script>
+

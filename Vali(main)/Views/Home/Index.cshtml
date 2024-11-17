@@ -1,0 +1,203 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Dashboard</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">Dashboard</li>
+    </ol>
+    <div class="row">
+        <!-- Tổng số khách hàng -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <a asp-controller="QLSanPhams" asp-action="Index" title="Chi tiet">
+
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    Số sản phẩm trong kho
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalProducts</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </a>
+        </div>
+
+
+        <!-- Tổng doanh thu -->
+
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <a asp-controller="QLHoaDons" asp-action="Index">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Tổng doanh thu
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalRevenue">@Model.TotalRevenue?.ToString("C")</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        <!-- Tổng số đơn hàng -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-info shadow h-100 py-2">
+                <div class="card-body">
+                    <a asp-controller="QLHoaDons" asp-action="Index">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                    Tổng số đơn hàng
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalRevenue">@Model.TotalOrders</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Tổng sô khách hàng-->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <a asp-controller="QLKhachHangs" asp-action="Index">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                    Khách hàng
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">@Model.TotalCustomers</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-users fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+        <!-- Doanh thu -->
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-area me-1"></i>
+                    Doanh thu
+                </div>
+                <div class="card-body">
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+       @*  <!-- Đơn hàng -->
+        <div class="col-xl-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <i class="fas fa-chart-bar me-1"></i>
+                    Đơn hàng
+                </div>
+                <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+            </div>
+        </div> *@
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="~/js/chart-bar.js"></script>
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line', // Loại biểu đồ (line, bar, etc.)
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Doanh thu theo tháng',
+                data: [12, 19, 3, 5, 2, 3, 7],  // Dữ liệu mẫu
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true
+        }
+    });
+</script>
+
+@* <script>
+    // Lấy dữ liệu doanh thu từ API
+    fetch('/Home/GetRevenueData')
+        .then(response => response.json())
+        .then(data => {
+            // Lấy dữ liệu doanh thu cho biểu đồ
+            const month = data.map(item => item.month
+            const revenue = data.map(item => item.revenue);
+
+            // Vẽ biểu đồ doanh thu
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'line', // Loại biểu đồ (line, bar, etc.)
+                data: {
+                    labels:month,
+                    datasets: [{
+                        label: 'Doanh thu theo tháng',
+                        data: revenue,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Lỗi khi lấy tổng doanh thu:', error);
+            document.getElementById('totalRevenue').innerText = 'Không thể tải';
+        });
+
+    // Lấy dữ liệu đơn hàng từ API
+    fetch('/Home/GetOrderData')
+        .then(response => response.json())
+        .then(data => {
+            const dates = data.map(item => item.Date)
+            const orders = data.map(item => item.TotalOrders);
+
+            // Vẽ biểu đồ đơn hàng
+            const ctx = document.getElementById('myBarChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: dates,
+                    datasets: [{
+                        label: 'Số đơn hàng',
+                        data: orders,
+                        backgroundColor: 'rgba(54, 185, 204, 0.2)',
+                        borderColor: 'rgba(54, 185, 204, 1)',
+                        borderWidth: 1
+                    }]
+                }
+            });
+        });
+</script>
+ *@

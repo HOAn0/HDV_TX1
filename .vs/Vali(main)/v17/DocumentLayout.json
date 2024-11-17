@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|c:\\users\\huy ho\u00E0n\\documents\\technology software\\service-oriented architecture - soa (ptpmhdv)\\vali(main)\\vali(main)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|solutionrelative:vali(main)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|c:\\users\\huy ho\u00E0n\\documents\\technology software\\service-oriented architecture - soa (ptpmhdv)\\vali(main)\\vali(main)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|solutionrelative:vali(main)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|c:\\users\\huy ho\u00E0n\\documents\\technology software\\service-oriented architecture - soa (ptpmhdv)\\vali(main)\\vali(main)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B6997C5-D145-4D4C-B838-3A94279B4C16}|Vali(main)\\Vali(main).csproj|solutionrelative:vali(main)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Vali(main)\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Vali(main)\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T15:02:37.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vali(main)\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Vali(main)\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T15:00:25.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Vali(main)\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Huy Ho\u00E0n\\Documents\\Technology Software\\Service-Oriented Architecture - SOA (PTPMHDV)\\Vali(main)\\Vali(main)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Vali(main)\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:00:20.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

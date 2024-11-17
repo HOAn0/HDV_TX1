@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Vali_main_
+build_property.RootNamespace = Vali_main_
+build_property.ProjectDir = C:\Users\Huy Hoàn\Documents\Technology Software\Service-Oriented Architecture - SOA (PTPMHDV)\Vali(main)\Vali(main)\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Huy Hoàn\Documents\Technology Software\Service-Oriented Architecture - SOA (PTPMHDV)\Vali(main)\Vali(main)
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/APIDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVBJRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLHoadons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxIb2Fkb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLHoadons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxIb2Fkb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLHoadons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxIb2Fkb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLHoadons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxIb2Fkb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLHoadons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxIb2Fkb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLKhachHangs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaEhhbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLKhachHangs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaEhhbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLKhachHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaEhhbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLKhachHangs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaEhhbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLKhachHangs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaEhhbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLSanphams/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTYW5waGFtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLSanphams/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTYW5waGFtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLSanphams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTYW5waGFtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLSanphams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTYW5waGFtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLSanphams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTYW5waGFtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLTaikhoans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUYWlraG9hbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLTaikhoans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUYWlraG9hbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLTaikhoans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUYWlraG9hbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLTaikhoans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUYWlraG9hbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/QLTaikhoans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxUYWlraG9hbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Huy Hoàn/Documents/Technology Software/Service-Oriented Architecture - SOA (PTPMHDV)/Vali(main)/Vali(main)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z5oit7jwg3

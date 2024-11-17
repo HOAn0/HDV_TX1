@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Vali_main_.Models.TKhachHang>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Quản lý Khách hàng</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            @Html.ActionLink("Dashboard", "Index", "Home")
+        </li>
+        <li class="breadcrumb-item active">Quản lý Khách hàng</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <span><i class="fa-solid fa-suitcase"></i> Sản phẩm</span>
+            <p>
+                <a asp-action="Create"><i class="fa-solid fa-square-plus btn btn-success" style="20px" title="Thêm sản phẩm"></i></a>
+            </p>
+        </div>
+        <div class="card-body">
+            <table id="datatablesSimple">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TenKhachHang)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SoDienThoai)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DiaChi)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.LoaiKhachHang)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AnhDaiDien)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.UsernameNavigation)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenKhachHang)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SoDienThoai)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DiaChi)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LoaiKhachHang)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AnhDaiDien)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UsernameNavigation.Username)
+                            </td>
+                            <td>
+                                <div class="icon-function">
+                                    <div> <a asp-action="Edit" asp-route-id="@item.MaKhanhHang"><i class="fa-solid fa-pen-to-square btn btn-warning" title="Sửa"></i></a></div>
+                                    <div><a asp-action="Details" asp-route-id="@item.MaKhanhHang"><i class="fa-solid fa-circle-info btn btn-info" title="Chi tiết"></i></a></div>
+                                    <div><a asp-action="Delete" asp-route-id="@item.MaKhanhHang"><i class="fa-solid fa-trash btn btn-danger" title="Xóa"></i></a></div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="~/js/simple-database.js"></script>

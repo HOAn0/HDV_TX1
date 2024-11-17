@@ -1,0 +1,178 @@
+﻿@model Vali_main_.Models.TDanhMucSp
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h1 class="mt-4"> Chi tiết sản phẩm</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item">
+            @Html.ActionLink("Dashboard", "Index", "Home")
+        </li>
+        <li class="breadcrumb-item">
+            @Html.ActionLink("Quản lý Sản phẩm", "Index", "QLSanphams")
+        </li>
+        <li class="breadcrumb-item active">Chi tiết Sản phẩm</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.TenSp)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.TenSp)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.NganLapTop)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.NganLapTop)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Model)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.Model)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.CanNang)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.CanNang)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.DoNoi)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.DoNoi)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.MaDacTinh)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.MaDacTinh)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Website)
+                    </th>
+                    <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.Website)
+                    </td>
+                <tr>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.ThoiGianBaoHanh)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.ThoiGianBaoHanh)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.GioiThieuSp)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.GioiThieuSp)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.ChietKhau)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.ChietKhau)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.AnhDaiDien)
+                    </th>
+                    <td class="col-sm-10">
+                        <img src="~/Images/@Model.AnhDaiDien" alt="Ảnh đại diện" style="width:180px; height: auto" />
+                    </td>
+                </tr>
+                <th class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.GiaNhoNhat)
+                </th>
+                <td class="col-sm-10">
+                        @Html.DisplayFor(model => model.GiaNhoNhat)
+                </td>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.GiaLonNhat)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.GiaLonNhat)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.MaChatLieuNavigation)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.MaChatLieuNavigation.ChatLieu)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.MaDtNavigation)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.MaDtNavigation.TenLoai)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.MaHangSxNavigation)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.MaHangSxNavigation.HangSx)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.MaLoaiNavigation)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.MaLoaiNavigation.Loai)
+                    </td>
+                </tr>
+                <tr>
+                    <th class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.MaNuocSxNavigation)
+                    </th>
+                    <td class="col-sm-10">
+                            @Html.DisplayFor(model => model.MaNuocSxNavigation.TenNuoc)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">
+                        <div> <a asp-action="Edit" asp-route-id="@Model.MaSp"><i class="fa-solid fa-pen-to-square btn btn-primary" title="Sửa"></i></a></div>
+                        <a asp-action="Index"><i class="fa-solid fa-arrow-left btn btn-primary" style="font-size: 23px " title="Trở lại"></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
